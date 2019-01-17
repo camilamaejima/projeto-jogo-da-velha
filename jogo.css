@@ -1,12 +1,27 @@
 #logo-padawan{
-	width : 550px;
-	height : 400px;
+	width : 275px;
+	height : 200px;
 	position: fixed;
+	padding: 5%;
+}
+
+html{
+	position:relative;
+}
+
+head{
+	position: absolute;
+	top:0;
+	left:0;
 }
 
 #jogador1, #jogador2, #nomeJogador1, #nomeJogador2{
 	font-family: Arial; 
 	font-size: 25px;
+}
+
+#jogador1, #jogador2{
+	padding: 5%;
 }
 
 
@@ -19,4 +34,12 @@
 #easterEgg{
 	width: 90px;
 	height:90px;
+}
+
+.secao-jogo{
+	padding : 1px;
+}
+
+#jogadorXeO{
+	padding:2px;
 }

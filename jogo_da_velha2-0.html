@@ -1,66 +1,69 @@
 
 <meta charset="utf-8">
+<html> 
 
-<header>
-    <link rel="stylesheet" type="text/css" href="jogo.css">
-</header>
+    <header>
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="jogo.css">
+    </header>
 
-<head>
-    </br>
-    </br>
-    </br>
-    <img id ="logo-padawan" src="padawan.png" alt = "Padawan Logo">
-</head>
-
-<body>
-    <section id="divId" align="center">
-        </br>
-        <p id="titulo"></p>
-        
-        <p id="jogador1"></p>
-        <input type="text" id="nomeJogador1" maxlength="15">
-        </br>
-
-        <p id="jogador2"></p>
-        <input type="text" id="nomeJogador2" maxlength="15">
-        </br></br>
-
-        <button id="iniciarJogo">Iniciar Jogo</button>
-    </section>
-
-    <section>
-        <p id="jogadorXeO"></p>
-
-        <canvas id="matriz" width="450px" height="450px"></canvas>
-        
-    </section>
-
-    <section>
+    <head>
         </br>
         </br>
+        </br>
+        <img id ="logo-padawan" src="padawan.png" alt = "Padawan Logo">
+    </head>
 
-        <div id="revelarBotaoVoltarParaMenu" align="center" style = "display: none";>
-            <button id="voltarTelaInicial">Voltar para a tela inicial</button>
+    <body>
+        <section id="divId" align="center">
+            </br>
+            <p id="titulo"></p>
+            
+            <p id="jogador1"></p>
+            <input type="text" id="nomeJogador1" maxlength="15">
+            </br>
 
-        </div>
+            <p id="jogador2"></p>
+            <input type="text" id="nomeJogador2" maxlength="15">
+            </br></br>
 
-        <div id="mensagemVencedor">
+            <button id="iniciarJogo">Iniciar Jogo</button>
+        </section>
 
-          
-            <p id="mensagensParaUsuarios"></p>
-            <img id="easterEgg" src="masteryoda.jpeg" alt = "Mestre Yoda">
+        <section>
+            <p id="jogadorXeO"></p>
 
-        </div>
-    </section>
+            <canvas id="matriz" width="450px" height="450px"></canvas>
+            
+        </section>
 
-    <section>
-           
-        <audio id="efeitoSabre">
-            <source src="efeitoSabreDeLuz.mp3" type="audio/mp3">
-        </audio>
+        <section>
+            </br>
+            </br>
 
-    </section>
+            <div id="revelarBotaoVoltarParaMenu" align="center" style = "display: none";>
+                <button id="voltarTelaInicial">Voltar para a tela inicial</button>
 
-</body>
+            </div>
 
-<script type="text/javascript" src="funcoes.js"></script>
+            <div id="mensagemVencedor">
+
+              
+                <p id="mensagensParaUsuarios"></p>
+                <img id="easterEgg" src="masteryoda.jpeg" alt = "Mestre Yoda">
+
+            </div>
+        </section>
+
+        <section>
+               
+            <audio id="efeitoSabre">
+                <source src="efeitoSabreDeLuz.mp3" type="audio/mp3">
+            </audio>
+
+        </section>
+
+    </body>
+
+    <script type="text/javascript" src="funcoes.js"></script>
+</html>
