@@ -2,60 +2,60 @@
 <meta charset="utf-8">
 
 
-<body>
-
-
-<div>
+<head>
+    <div>
     </br>
     </br>
     </br>
     <img src="padawan.png" alt = "Padawan Logo" width = 550px height = 400px style="position: fixed">
 
-</div>
+    </div>
+</head>
 
-<div id="divId" align="center">
+<body>
+    <div id="divId" align="center">
 
+        </br>
+        <p id="titulo"></p>
+        
+        <p id="jogador1"></p>
+        <input type="text" id="nomeJogador1" maxlength="15" style="font-family: Arial; font-size: 25px">
+        </br>
+
+        <p id="jogador2"></p>
+        <input type="text" id="nomeJogador2" maxlength="15" style="font-family: Arial; font-size: 25px">
+        </br></br>
+
+        <button id="iniciarJogo">Iniciar Jogo</button>
+
+    </div>
+
+    <p id="jogadorXeO"></p>
+
+    <canvas id="matriz" width="450px" height="450px"></canvas>
     </br>
-    <p id="titulo"></p>
-    
-    <p id="jogador1"></p>
-    <input type="text" id="nomeJogador1" maxlength="15" style="font-family: Arial; font-size: 25px">
     </br>
 
-    <p id="jogador2"></p>
-    <input type="text" id="nomeJogador2" maxlength="15" style="font-family: Arial; font-size: 25px">
-    </br></br>
+    <div id="revelarBotaoVoltarParaMenu" align="center" style = "display: none";>
 
-    <button id="iniciarJogo">Iniciar Jogo</button>
+        <button id="voltarTelaInicial">Voltar para a tela inicial</button>
 
-</div>
+    </div>
 
-<p id="jogadorXeO"></p>
+    <div id="mensagemVencedor" style="opacity: 1; display: none;" align="middle">
 
-<canvas id="matriz" width="450px" height="450px"></canvas>
-</br>
-</br>
+      
+        <p id="mensagensParaUsuarios"></p><img id="easterEgg" src="masteryoda.jpeg" alt = "Mestre Yoda" width= "90px" height="90px">
 
-<div id="revelarBotaoVoltarParaMenu" align="center" style = "display: none";>
+    </div>
 
-    <button id="voltarTelaInicial">Voltar para a tela inicial</button>
+    <div>
+        
+        <audio id="efeitoSabre">
+        <source src="efeitoSabreDeLuz.mp3" type="audio/mp3">
+        </audio>
 
-</div>
-
-<div id="mensagemVencedor" style="opacity: 1; display: none;" align="middle">
-
-  
-    <p id="mensagensParaUsuarios"></p><img id="easterEgg" src="masteryoda.jpeg" alt = "Mestre Yoda" width= "90px" height="90px">
-
-</div>
-
-<div>
-    
-    <audio id="efeitoSabre">
-    <source src="efeitoSabreDeLuz.mp3" type="audio/mp3">
-    </audio>
-
-</div>
+    </div>
 
 </body>
 
