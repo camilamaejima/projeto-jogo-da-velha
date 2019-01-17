@@ -4,10 +4,11 @@
 	position: fixed;
 }
 
-#jogador1, #jogador2{
+#jogador1, #jogador2, #nomeJogador1, #nomeJogador2{
 	font-family: Arial; 
 	font-size: 25px;
 }
+
 
 #mensagemVencedor{
 	opacity: 1; 
