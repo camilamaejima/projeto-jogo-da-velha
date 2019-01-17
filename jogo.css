@@ -1,0 +1,21 @@
+#logo-padawan{
+	width : 550px;
+	height : 400px;
+	position: fixed;
+}
+
+#jogador1, #jogador2{
+	font-family: Arial; 
+	font-size: 25px;
+}
+
+#mensagemVencedor{
+	opacity: 1; 
+	display: none;
+	vertical-align:middle;
+}
+
+#easterEgg{
+	width: 90px;
+	height:90px;
+}
